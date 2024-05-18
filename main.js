@@ -210,7 +210,6 @@ function populateProducts(productList) {
     // Run a loop through the products and create an HTML element ("product-item") for each of them
     productList.forEach(function (product, index) {
         
-
         // Create the HTML element for the individual product
         // console.log(product);
         let productElm = document.createElement("div");
